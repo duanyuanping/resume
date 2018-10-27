@@ -1,0 +1,26 @@
+.b-tagName {
+	position: relative; 
+	height: 32px;
+	text-align: center;
+	margin: 10px auto 5px;
+}
+.line {
+	position: absolute;
+	width: 35%;
+	top: 50%;
+}
+.lineL {
+	left: 0;
+}
+.lineR {
+	right: 0;
+}
+.tagName {
+	line-height: 32px;
+	text-align: center;
+	border-radius: 16px;
+	display: inline-block;
+	padding: 0 20px;
+	font-size: 16px;
+	color: #fff;
+}

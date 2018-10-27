@@ -1,0 +1,50 @@
+.b-detail {
+	font-size: 14px;
+}
+.b-detail header {
+	padding: 10px 0 5px 0;
+	overflow: hidden;
+}
+.b-detail-head {
+	display: inline-block;
+	line-height: 20px;
+	font-weight: bold;
+	
+}
+.b-detail-time {
+	width: 140px;
+}
+.b-detail-link {
+	float: right;
+}
+.b-detail-link a {
+	display: inline-block;
+	line-height: 20px;
+	padding: 0 5px;
+	border-radius: 3px;
+}
+.b-detail-content {
+	line-height: 24px;
+	margin: 0;
+}
+.b-detail strong {
+	font-size: 12px;
+	display: inline-block;
+	padding: 0 3px;
+	margin: 0 2px;
+	line-height: 14px;
+	font-weight: normal;
+	background: #f3f3f3;
+}
+.content-away {
+	height: 12px;
+}
+.b-list-style {
+	position: relative;
+	top: -3px;
+	width: 4px;
+	height: 4px;
+	border-radius: 50%;
+	display: inline-block;
+	margin-right: 12px;
+}

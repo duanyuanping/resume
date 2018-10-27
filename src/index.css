@@ -18,6 +18,15 @@ li {
   list-style: none;
 }
 
+h1, h2, h3, h4 {
+  font-weight: normal;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;

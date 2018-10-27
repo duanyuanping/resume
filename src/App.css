@@ -1,7 +1,7 @@
 .g-wrap {
   width: 1024px;
-  height: 1024px;
-  margin: 50px auto;
+  min-height: 1450px;
+  margin: 0 auto;
   box-shadow: 0 0 30px rgb(201, 201, 201);
   background: #fff;
   border-radius: 5px;

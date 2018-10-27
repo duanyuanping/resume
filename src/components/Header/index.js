@@ -19,12 +19,12 @@ export default () => {
             {headData.mobile}
           </li>
           <li>
-            <a href={`Mailto:${headData.email}`}>
+            <a href={`Mailto:${headData.email}`} className="h-link">
               {headData.email}
             </a>
           </li>
           <li>
-            <a href={headData.github}>
+            <a href={headData.github} className="h-link">
               {headData.github.replace(/https:\/\//, '')}
             </a>
           </li>

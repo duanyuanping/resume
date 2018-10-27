@@ -6,9 +6,7 @@
 	justify-content: space-between;
 }
 h1, h2 {
-	margin: 0;
 	font-size: 50px;
-	font-weight: normal;
 }
 h2 {
 	font-size: 25px;
@@ -18,13 +16,12 @@ h2 {
 	text-align: right;
 	align-self: flex-end;
 }
-a {
+.h-link {
 	display: block;
 	color: #fff;
-	text-decoration: none;
 	font-size: 16px;
 }
-li {
+.otherInfo li {
 	margin: 7px;
 	font-size: 16px;
 }

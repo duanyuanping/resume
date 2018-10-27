@@ -1,11 +1,14 @@
 import React from 'react';
+import './index.css';
 
-export default ({ name }) => {
+const { resumeData: { theme } } = global;
+
+export default ({ tagName }) => {
 	return (
-  <header>
-    <span className="line1" />
-    <h3>{name}</h3>
-    <span className="line1" />
+  <header className="b-tagName">
+    <span className="line lineL" style={{borderTop: `1px solid ${theme}` }}/>
+    <h3 className="tagName" style={{background: theme}}>{tagName}</h3>
+    <span className="line lineR" style={{borderTop: `1px solid ${theme}` }} />
   </header>		
 	);
 }
