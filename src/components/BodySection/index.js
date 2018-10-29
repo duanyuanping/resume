@@ -4,11 +4,10 @@ import SectionDetail from '../SectionDetail';
 import './index.css';
 
 export default props => {
-	console.log(props)
 	return (
-		<div className="b-segment" >
+		<section className="b-segment" >
 			<Segment tagName={props.tagName} />
 			<SectionDetail { ...props.item }/>
-		</div>
+		</section>
 	);
 }

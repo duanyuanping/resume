@@ -19,22 +19,22 @@ export default () => {
         <ul>
           <li>
             {headData.address}
-            <img className="h-icon" src={home}/>
+            <img className="h-icon" src={home} alt="home"/>
           </li>
           <li>
             {headData.mobile}
-            <img className="h-icon" src={mobile}/>
+            <img className="h-icon" src={mobile} alt="mobile"/>
           </li>
           <li>
             <a href={`Mailto:${headData.email}`} className="h-link">
               {headData.email}
-              <img className="h-icon" src={email}/>
+              <img className="h-icon" src={email} alt="email"/>
             </a>
           </li>
           <li>
             <a href={headData.github} className="h-link">
               {headData.github.replace(/https:\/\//, '')}
-              <img className="h-icon" src={github}/>
+              <img className="h-icon" src={github} alt="github"/>
             </a>
           </li>
         </ul>
