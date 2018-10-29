@@ -121,14 +121,14 @@ global.resumeData = {
 				],
 			},
 		},
-		// {
-		// 	tagName: '个人作品',
-		// 	item: { 
-		// 		type: 'normal',
-		// 		describe: [
+		{
+			tagName: '个人作品',
+			item: { 
+				type: 'normal',
+				describe: [
 					
-		// 		],
-		// 	},
-		// },
+				],
+			},
+		},
 	],
 };
