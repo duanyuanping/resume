@@ -7,6 +7,7 @@ global.resumeData = {
 		mobile: '130 7239 0461',
 		email: '1798482104@qq.com',
 		github: 'https://github.com/duanyuanping',
+		gitlab: 'http://code.varbee.com/duanyuanping',
 	},
 	body: [ // 简历主体
 		{
@@ -43,18 +44,30 @@ global.resumeData = {
 						<strong>项目职责</strong>项目设计和研发。
 						主要负责后端<strong>登录系统</strong>搭建、供其他系统后台使用来实现单点登录的<strong>中间件</strong>的编写`,
 					},
+					// {
+					// 	head: { 
+					// 		time: '2018.3 - 2018.5',
+					// 		title: '搭建系统管理端',
+					// 		link: { name: '团队项目' },
+					// 	},
+					// 	detail: `<strong>项目简介</strong>该系统用到的技术栈有
+					// 	<strong>antdesign</strong><strong>egg.js</strong>。
+					// 	该系统是用来管理<strong>可视化页面搭建系统</strong>中需要的模块以及生成的页面。
+					// 	<br>
+					// 	<strong>项目职责</strong>页面管理、设计和研发。
+					// 	主要负责前端页面使用<strong>antdesign</strong>框架开发，后端编写前端页面管理的接口和页面管理的接口文档`,
+					// },
 					{
-						head: { 
-							time: '2018.3 - 2018.5',
-							title: '搭建系统管理端',
+						head: {
+							time: '2018.11 - 2018.12',
+							title: '水果配送管理端',
 							link: { name: '团队项目' },
 						},
-						detail: `<strong>项目简介</strong>该系统用到的技术栈有
-						<strong>antdesign</strong><strong>egg.js</strong>。
-						该系统是用来管理<strong>可视化页面搭建系统</strong>中需要的模块以及生成的页面。
+						detail: `<strong>项目简介</strong>该系统用到的技术是基于<strong>react</strong>和<strong>redux</strong>
+						技术栈的<strong>antdesign</strong>以及基于<strong>node</strong>开发的<strong>eggjs</strong>框架，该项目主要的功能是用来对管理员登录、销售数据的展示、货物的管理、用户管理、骑手管理等
 						<br>
-						<strong>项目职责</strong>页面管理、设计和研发。
-						主要负责前端页面使用<strong>antdesign</strong>框架开发，后端编写前端页面管理的接口和页面管理的接口文档`,
+						<strong>项目职责</strong>项目页面管理、设计和研发。
+						主要负责：前端负责开发管理员账号添加、管理员登录、货品管理、订单管理、优惠券管理，后端负责管理员登录、注册、修改`,
 					},
 					{
 						head: { 
@@ -100,12 +113,32 @@ global.resumeData = {
 							link: { name: '创业团队' },
 						},
 						detail: `<strong>团队简介</strong>勤奋蜂是一个校园创业团队，涵盖产品、运营、行政、
-						科创、前 端、后台、移动七部门。目前公众号<strong>校招导师</strong>有粉丝
+						科创、前端、后台、移动七部门。目前公众号<strong>校招导师</strong>有粉丝
 						<strong>10000+</strong>，微信推送300+，平均阅读量1K+。
 						<br>
 						<strong>前端组核心成员</strong>负责团队项目研发，维护及<strong>性能优化</strong>，
 						同时参与团队代码规范实施，并参与了工作室日常技术分享交流和codeReview。
 						期间积攒了各类项目开发经验和<strong>团队合作经验</strong>。`,
+					},
+				],
+			},
+		},
+		{
+			tagName: '个人作品',
+			item: { 
+				type: 'normal',
+				describe: [
+					{
+						head: {
+							time: '2018.11',
+							title: '个人简历界面',
+							link: { name: '个人作品' },
+						},
+						detail: `<strong>项目简介</strong>该项目用到的技术栈是<strong>react</strong>,
+						主要实现的功能通过直接修改配置文件来实现对简历内容的修改以及主题修改。
+						<br>
+						<strong>项目职责</strong>项目设计和研发。
+						主要负责设计简历系统复用性、配置文件的结构以及页面样式，使用<strong>react</strong>开发整个系统`,
 					},
 				],
 			},
@@ -118,15 +151,6 @@ global.resumeData = {
 					`工作态度认真，有责任心，有很好的团队合作意识`,
 					`喜欢新鲜的技术，热爱专研`,
 					`性格沉稳，在面对技术难点有着不服输的精神`,
-				],
-			},
-		},
-		{
-			tagName: '个人作品',
-			item: { 
-				type: 'normal',
-				describe: [
-					
 				],
 			},
 		},

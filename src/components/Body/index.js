@@ -1,7 +1,6 @@
 import React from 'react';
 import Masonry from 'react-masonry-component';
 import BodySection from '../BodySection';
-
 import './index.css';
 
 const { resumeData: { body: bodyData } } = global;

@@ -5,6 +5,7 @@ const home = require('../../static/home.svg');
 const mobile = require('../../static/mobile.svg');
 const email = require('../../static/email.svg');
 const github = require('../../static/github.svg');
+const gitlab = require('../../static/gitlab.svg');
 
 const { resumeData: { head: headData, theme } } = global;
 
@@ -35,6 +36,12 @@ export default () => {
             <a href={headData.github} className="h-link">
               {headData.github.replace(/https:\/\//, '')}
               <img className="h-icon" src={github} alt="github"/>
+            </a>
+          </li>
+          <li>
+            <a href={headData.gitlab} className="h-link">
+              {headData.gitlab.replace(/http:\/\//, '')}
+              <img className="h-icon" src={gitlab} alt="github"/>
             </a>
           </li>
         </ul>
