@@ -1,3 +1,4 @@
+/* 样式重置 */
 body {
   margin: 0;
   padding: 0;
@@ -30,4 +31,26 @@ a {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+/*  */
+.g-wrap {
+  width: 1024px;
+  min-height: 1450px;
+  margin: 50px auto 0;
+  box-shadow: 0 0 30px rgb(201, 201, 201);
+  background: #fff;
+  border-radius: 5px;
+}
+
+strong {
+	font-size: 12px;
+	display: inline-block;
+	padding: 0 3px;
+	margin: 0 2px;
+	line-height: 14px;
+	font-weight: normal;
+	background: #f3f3f3;
+	border: 1px solid #d1d1d1;
+	border-radius: 3px;
 }
