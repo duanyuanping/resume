@@ -1,5 +1,5 @@
 import React from 'react';
-import style from './index.css';
+import style from './index.less';
 
 const home = require('../../../static/home.svg');
 const mobile = require('../../../static/mobile.svg');
@@ -16,7 +16,7 @@ export default () => {
         <h1>{headData.name}</h1>
         <h3>求职意向：{headData.position}</h3>
       </section>
-      <section className="school">
+      <section className={style.school}>
         <ul>
           <li>{headData.school}</li>
           <li>{headData.degree}</li>
