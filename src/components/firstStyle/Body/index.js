@@ -1,7 +1,7 @@
 import React from 'react';
 import Masonry from 'react-masonry-component';
 import BodySection from '../BodySection';
-import './index.css';
+import style from './index.css';
 
 const { resumeData: { body: bodyData } } = global;
 const masonryOptions = {
@@ -10,9 +10,9 @@ const masonryOptions = {
 
 export default () => {
 	return (
-  <div className="g-body">
+  <div className={style["g-body"]}>
     <Masonry
-      className={'my-gallery-class'} // default ''
+      className={style['my-gallery-class']} // default ''
       elementType={'div'} // default 'div'
       options={masonryOptions} // default {}
       disableImagesLoaded={false} // default false

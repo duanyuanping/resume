@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './resumeData';
 import './index.css';
-// import FirstStyle from './components/firstStyle';
+import FirstStyle from './components/firstStyle';
 import SecStyle from './components/secStyle';
 import * as serviceWorker from './serviceWorker';
 
