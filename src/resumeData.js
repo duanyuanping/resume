@@ -107,8 +107,8 @@ global.resumeData = {
 					`了解一些关于<strong>计算机网络</strong><strong>数据结构</strong>和<strong>算法</strong>的基础知识`,
 					`能熟练使用<strong>HTML</strong><strong>JavaScript</strong>，能够使用<strong>CSS</strong>完成平时开发`,
 					`能使用<strong>git</strong>工具进行团队协作开发`,
-					`对于<strong>MV*</strong>有一定了解，能够熟练使用<strong>react</strong><strong>redux</strong><strong>react-router</strong>进行平时开发，对<strong>react</strong>
-					和<strong>redux</strong>实现有一定了解，能够熟练使用<strong>antdesign</strong>库开发管理系统`,
+					`对于<strong>MV*</strong>有一定了解，能够熟练使用<strong>react</strong><strong>redux</strong>进行平时开发，对<strong>react</strong>
+					和<strong>redux</strong>实现有一定了解，能够熟练使用<strong>antdesign</strong>库开发管理系统，能够使用<strong>react-router</strong>开发`,
 					`知道一些<strong>node</strong>基础知识，能够熟练使用<strong>egg.js</strong>开发后端应用，曾多次使用egg开发商业项目经验，能够使用<strong>mysql</strong><strong>redis</strong>进行平时开发，
 					开发后端时注重写<strong>数据库文档</strong>和<strong>接口文档</strong>`,
 					// `能使用<strong>webpack</strong>完成平时基本需求，有使用webpack模仿实现<strong>create-react-app</strong>脚手架`,
