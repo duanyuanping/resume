@@ -5,6 +5,7 @@ import './index.css';
 import FirstStyle from './components/firstStyle';
 import SecStyle from './components/secStyle';
 import * as serviceWorker from './serviceWorker';
+import App from './App';
 
 ReactDOM.render(<SecStyle />, document.getElementById('root'));
 
