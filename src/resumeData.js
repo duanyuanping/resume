@@ -63,10 +63,13 @@ global.resumeData = {
 						},
 						detail: `<header>项目简介：</header>该系统用于将团队中多个系统中的用户合并，让所有系统使用同一套用户。
 						用户使用本团队系统时只需要在一个系统中登录以后，用户在其他系统中处于登录状态，当某一个系统退出后，其他系统也变成未登录状态。
-						该系统用到的技术栈有<strong>egg.js</strong><strong>mysql</strong><strong>redis</strong><strong>jquery</strong>。
+						该系统用到的技术栈有<strong>egg.js</strong>、mysql、redis 和<strong>jquery</strong>。
 						<br>
-						<header>个人工作：</header>整理单点登录逻辑并实现。
-						负责开发后端<strong>登录系统</strong>搭建、其他业务系统检验用户登录状态的<strong>中间件</strong>、实现<strong>跨域设置 cookie</strong>等功能代码`,
+						<header>个人工作：</header>负责整个系统的实现，在开发过程中主要实现了以下功能<strong>跨域页面 cookie 写入</strong>
+						<strong>接入登录中心的中间件</strong><strong>业务系统保存用户登录信息</strong>
+						<strong>统一登出</strong><strong>登录成功重定向回业务页面</strong>
+						`,
+						// 整理<strong>单点登录逻辑</strong>并实现。负责开发后端<strong>登录系统</strong>搭建、其他业务系统检验用户登录状态的<strong>中间件</strong>、实现<strong>跨域设置 cookie</strong>等功能代码
 					},
 					{
 						head: { 
@@ -75,13 +78,13 @@ global.resumeData = {
 							link: { name: '微信小程序：北京水上运动' },
 						},
 						detail: `<header>项目简介：</header>该小程序用于线上支持预约服务。消费者可以通过该小程序预约华仁启智公司的团建活动、购买会员服务和获取最近活动动态等信息。
-						该项目用到的技术栈有<strong>原生微信小程序</strong><strong>antdesign</strong><strong>egg.js</strong><strong>mysql</strong><strong>redis</strong>。
+						该项目用到的技术栈有<strong>原生微信小程序</strong><strong>antdesign</strong><strong>egg.js</strong>、mysql、redis。
 						<br>
-						<header>个人工作：</header>小程序：整理所有产品流程、封装 request 公共函数、开发微信支付、登录、首页等页面；
+						<header>个人工作：</header>小程序：整理所有<strong>产品流程</strong><strong>封装 request 公共函数</strong>、开发<strong>微信支付</strong><strong>登录</strong><strong>首页</strong>等页面；
 						<br>
-						后端：初始后端项目框架，日志分段、请求日志记录中间件、微信支付、小程序登录等业务接口；
+						后端：初始后端项目框架，<strong>日志分段</strong><strong>请求日志记录中间件</strong><strong>微信支付</strong><strong>小程序登录</strong>等业务接口；
 						<br>
-						管理端：开发订单管理页面;
+						管理端：开发订单管理、项目管理、用户管理等页面;
 						<br>
 						上线：上线小程序和管理端，配置<strong>https</strong>;`,
 					},
@@ -104,16 +107,16 @@ global.resumeData = {
 			item: {
 				type: 'listStyle',
 				describe: [
-					`了解一些关于<strong>计算机网络</strong><strong>数据结构</strong>和<strong>算法</strong>的基础知识`,
 					`能熟练使用<strong>HTML</strong><strong>JavaScript</strong>，能够使用<strong>CSS</strong>完成平时开发`,
 					`能使用<strong>git</strong>工具进行团队协作开发`,
 					`能够熟练使用<strong>react</strong><strong>redux</strong>进行平时开发，对<strong>react</strong>
-					和<strong>redux</strong>实现有一定了解，能够熟练使用<strong>antdesign</strong>库开发管理系统`,
-					`知道一些<strong>node</strong>基础知识，能够熟练使用<strong>egg.js</strong>开发后端应用，曾多次使用egg开发商业项目经验，能够使用<strong>mysql</strong><strong>redis</strong>进行平时开发，
+					实现有一定了解，能够熟练使用<strong>antdesign</strong>库开发管理系统`,
+					`了解一些<strong>node</strong>基础知识，能够熟练使用<strong>egg.js</strong>开发后端应用，曾多次使用egg开发商业项目经验，能够简单的使用mysql、redis进行平时开发，
 					开发后端时注重写<strong>数据库文档</strong>和<strong>接口文档</strong>`,
 					// `能使用<strong>webpack</strong>完成平时基本需求，有使用webpack搭建react单页应用的经历`,
 					`会一点<strong>Linux操作</strong>，能够将<strong>项目上线</strong>，会使用<strong>nginx</strong>来解决前端页面跨域等问题，能够配置<strong>https</strong>`,
-					`对<strong>浏览器知识</strong>和前端<strong>页面性能优化</strong>有一定的了解，平时开发注重<strong>代码可维护性</strong>以及<strong>用户体验</strong>`,
+					`对<strong>浏览器相关知识</strong>和前端<strong>页面性能优化</strong>有一定的了解，平时开发注重<strong>代码可维护性</strong>以及<strong>用户体验</strong>`,
+					`了解一些关于计算机网络、数据结构、算法的基础知识`,
 				],
 			},
 		},
