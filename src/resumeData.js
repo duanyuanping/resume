@@ -3,7 +3,7 @@ global.resumeData = {
 	theme: '#2577e3',
 	head: { // 简历头部
 		name: '段远平',
-		position: 'web前端开发工程师（实习）',
+		position: 'web前端开发工程师',
 		address: '重庆 南岸区',
 		school: '重庆邮电大学 / 电子商务专业',
 		degree: '本科 / 2020年毕业',
@@ -29,23 +29,21 @@ global.resumeData = {
 		// 	},
 		// },
 		{
-			tagName: '实践经历',
+			tagName: ' 实习经历',
 			item: {
 				type: 'normal',
 				describe: [
 					{
 						head: { 
-							time: '2017.10 - 至今',
-							title: '勤奋蜂科技 · 前端组',
-							link: { name: '创业团队' },
+							time: '2019.5 - 2019.8.30',
+							title: ' 腾讯-PCG',
+							link: { name: 'IVWEB前端团队' },
 						},
-						detail: `<header>团队介绍：</header>勤奋蜂是一个校园创业团队，涵盖产品、运营、行政、
-						科创、前	端、后台、移动七部门。目前公众号<strong>校招导师</strong>有粉丝
-						<strong>10000+</strong>，微信推送300+，平均阅读量1K+。
+						detail: `<header>团队介绍：</header>团队主要负责腾讯旗下的now直播、回音、交友、花样、腾讯直播等商业产品开发；
+						团队大力发展前端工程化和自动化，其中包括有feflow项目脚手架、oci发布工具、Aegist错误监控平台、lego组件平台等等这些项目；
+						团队技术影响力发展，组织开展腾讯TLC开发大会、团队社区优质文章推送等。
 						<br>
-						<header>前端成员：</header>负责团队项目研发，维护及<strong>性能优化</strong>，
-						同时参与团队代码规范实施，并参与了工作室日常技术分享交流和<strong>codeReview</strong>。
-						期间积攒了各类项目开发经验和<strong>团队合作经验</strong>。`,
+						<header>二组成员：</header>主要负责NOW PC WEB项目开发、lego平台pc组件开发、now pc中部分优化页面和功能性能优化任务、每日项目错误上报日志处理任务。`,
 					},
 				],
 			},
@@ -57,19 +55,13 @@ global.resumeData = {
 				describe: [
 					{
 						head: { 
-							time: '2018.2 - 2018.3',
-							title: '单点登录系统',
-							link: { name: '团队项目' },
+							time: '2019.5 - 2019.8',
+							title: 'NOW PC直播',
+							link: { name: 'NOW地址', href: 'https://now.qq.com/pcweb/index.html' },
 						},
-						detail: `<header>项目简介：</header>该系统用于将团队中多个系统中的用户合并，让所有系统使用同一套用户。
-						用户使用本团队系统时只需要在一个系统中登录以后，用户在其他系统中处于登录状态，当某一个系统退出后，其他系统也变成未登录状态。
-						该系统用到的技术栈有<strong>egg.js</strong>、mysql、redis 和<strong>jquery</strong>。
+							detail: `<header>项目简介：</header>
 						<br>
-						<header>个人工作：</header>负责整个系统的实现，在开发过程中主要实现了以下功能<strong>跨域页面 cookie 写入</strong>
-						<strong>接入登录中心的中间件</strong><strong>业务系统保存用户登录信息</strong>
-						<strong>统一登出</strong><strong>登录成功重定向回业务页面</strong>
-						`,
-						// 整理<strong>单点登录逻辑</strong>并实现。负责开发后端<strong>登录系统</strong>搭建、其他业务系统检验用户登录状态的<strong>中间件</strong>、实现<strong>跨域设置 cookie</strong>等功能代码
+						<header>个人工作：</header>`,
 					},
 					{
 						head: { 
@@ -77,8 +69,8 @@ global.resumeData = {
 							title: '北京水上运动线上销售服务',
 							link: { name: '微信小程序：北京水上运动' },
 						},
-						detail: `<header>项目简介：</header>该小程序用于线上支持预约服务。消费者可以通过该小程序预约华仁启智公司的团建活动、购买会员服务和获取最近活动动态等信息。
-						该项目用到的技术栈有<strong>原生微信小程序</strong><strong>antdesign</strong><strong>egg.js</strong>、mysql、redis。
+							detail: `<header>项目简介：</header>该小程序用于线上支持预约服务。消费者可以通过该小程序预约华仁启智公司的团建活动、购买会员服务和获取最近活动动态等信息。
+							该项目用到的技术栈有<strong>原生微信小程序</strong><strong>antdesign</strong><strong>egg.js</strong>、mysql、redis。
 						<br>
 						<header>个人工作：</header>小程序：整理所有<strong>产品流程</strong><strong>封装 request 公共函数</strong>、开发<strong>微信支付</strong><strong>登录</strong><strong>首页</strong>等页面；
 						<br>
@@ -89,16 +81,20 @@ global.resumeData = {
 						上线：上线小程序和管理端，配置<strong>https</strong>;`,
 					},
 					{
-						head: {
-							time: '2018.11 - 2018.12',
-							title: '水果配送管理端',
-							link: { name: '团队项目' },
+						head: { 
+							time: '2018.2 - 2018.3',
+							title: '单点登录系统',
+							link: { name: '后端服务' },
 						},
-						detail: `<header>项目简介：</header>该系统是用来展示呦呦校园小程序中信息数据展示和管理功能。
-						用到的技术有<strong>antdesign</strong>和<strong>eggjs</strong>框架。
+						detail: `<header>项目简介：</header>该系统用于将团队中多个系统中的用户合并，让所有系统使用同一套用户。
+						用户使用本团队系统时只需要在一个系统中登录以后，用户在其他系统中处于登录状态，当某一个系统退出后，其他系统也变成未登录状态。
+						该系统用到的技术栈有<strong>egg.js</strong>、mysql、redis 和<strong>jquery</strong>。
 						<br>
-						<header>个人工作：</header>整理管理端产品流程。前端开发管理员登录、水果管理等页面，后端开发管理员添加、登录、删除等接口`,
-					},
+						<header>个人工作：</header>负责整个系统的实现，在开发过程中主要实现了以下功能<strong>跨域页面 cookie 写入</strong>
+						<strong>接入登录中心的中间件</strong><strong>业务系统保存用户登录信息</strong>
+						<strong>统一登出</strong><strong>登录成功重定向回业务页面</strong>
+						`,
+					},	
 				],
 			},
 		},

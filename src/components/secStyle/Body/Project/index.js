@@ -12,7 +12,17 @@ export default ({ children }) => {
           <section style={{color: theme}}>
             <nav>{time}</nav>
             <nav>{title}</nav>
-            <nav>{link.name}</nav>
+            <nav>
+              <span
+                onClick={() => link.href && window.open(link.href)}
+                className={link.href && style.hand}
+                style={{
+                  padding: '0 5px',
+                }}
+              >
+                {link.name}
+              </span>
+            </nav>
           </section>
           <div className={style["project-content"]} dangerouslySetInnerHTML={{ __html: detail}}></div>
         </section>
