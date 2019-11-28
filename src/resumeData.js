@@ -43,7 +43,7 @@ global.resumeData = {
 						},
 						detail: `
 							<header>团队介绍：</header>团队主要负责腾讯旗下的now直播、回音、交友、花样、腾讯直播等商业产品开发；
-							团队现在有feflow脚手架、aegis错误监控平台、lego组件平台、oci自动发布、fastest代理平台等非商业项目，用于提高团队的开发效率和线上项目的稳定性；
+							团队现在有feflow脚手架、aegis错误监控平台、lego组件平台、oci自动发布、fastest代理平台等非商业项目，用于提高tuan的开发效率和稳定性；
 							团队技术影响力发展，团队组织开展腾讯TLC开发大会、ivweb社区文章推送等。
 							<br>
 							<header>个人工作：</header>业务需求：now pc web项目开发、直播助手qq浏览器插件。
@@ -110,7 +110,7 @@ global.resumeData = {
 						head: { 
 							time: '2018.2 - 2018.3',
 							title: '单点登录系统',
-							link: {},
+							link: { name: '已下线' },
 						},
 						detail: `
 							<header>项目介绍：</header>团队所有业务系统统一使用统一套登陆系统，实现所有系统保持一致的用户登陆状态。实现的功能有：统一登录、统一登出、团队使用一套用户信息。
