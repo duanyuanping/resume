@@ -35,9 +35,10 @@ code {
 
 /*  */
 :global(.g-wrap) {
+  color: #333;
   width: 1024px;
   min-height: 1450px;
-  margin: 50px auto 0;
+  margin: 50px auto;
   box-shadow: 0 0 30px rgb(201, 201, 201);
   background: #fff;
   border-radius: 5px;
@@ -46,12 +47,14 @@ code {
 strong {
 	font-size: 14px;
 	/* display: inline-block; */
-	padding: 3px;
+	padding: 3px 6px;
 	margin: 0 2px;
 	line-height: 14px;
 	font-weight: normal;
 	background: #f3f3f3;
 	/* border: 1px solid #d1d1d1; */
-  /* border-radius: 3px; */
+  border-radius: 3px;
   text-indent: 0;
+  color: #000;
+  /* font-weight: 450; */
 }
