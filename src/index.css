@@ -37,7 +37,7 @@ code {
 :global(.g-wrap) {
   color: #333;
   width: 1024px;
-  min-height: 1450px;
+  min-height: 1490px;
   margin: 50px auto;
   box-shadow: 0 0 30px rgb(201, 201, 201);
   background: #fff;
