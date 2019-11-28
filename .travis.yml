@@ -1,5 +1,8 @@
 language: node_js
 node_js:
-  - 10
+- 10
 cache: npm
 script: npm run build
+before_install:
+- openssl aes-256-cbc -K $encrypted_913ba51a0c40_key -iv $encrypted_913ba51a0c40_iv
+  -in id_rsa.enc -out /home/travis/.ssh/id_rsa -d
