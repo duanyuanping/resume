@@ -13,15 +13,16 @@ export default ({ children }) => {
             <nav>{time}</nav>
             <nav>{title}</nav>
             <nav>
-              <span
-                onClick={() => link.href && window.open(link.href)}
-                className={link.href && style.hand}
+              <a
+                href={link.href ? link.href : 'javascript:;'}
                 style={{
                   padding: '0 5px',
+                  cursor: link.href ? 'point' : 'auto',
+                  color: 'rgb(37, 119, 227)',
                 }}
               >
                 {link.name}
-              </span>
+              </a>
             </nav>
           </section>
           <div className={style["project-content"]} dangerouslySetInnerHTML={{ __html: detail}}></div>

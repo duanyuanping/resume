@@ -28,13 +28,13 @@ global.resumeData = {
 		// 	},
 		// },
 		{
-			tagName: ' 实习经历',
+			tagName: '工作经历',
 			item: {
 				type: 'normal',
 				describe: [
 					{
 						head: { 
-							time: '2019.6 - 2019.11',
+							time: '2019.5 - 2019.11',
 							title: ' 腾讯-PCG',
 							link: {
 								name: 'IVWEB前端团队',
@@ -42,9 +42,9 @@ global.resumeData = {
 							},
 						},
 						detail: `
-							<header>团队介绍：</header>团队主要负责腾讯旗下的now直播、回音、交友、花样、腾讯直播等商业产品开发；
-							团队现在有feflow脚手架、aegis错误监控平台、lego组件平台、oci自动发布、fastest代理平台等非商业项目，用于提高tuan的开发效率和稳定性；
-							团队技术影响力发展，团队组织开展腾讯TLC开发大会、ivweb社区文章推送等。
+							<header>团队介绍：</header>团队主要负责腾讯旗下的now直播、回音、交友、花样、腾讯直播等商业项目开发；
+							团队现在有feflow脚手架、aegis错误监控平台、lego组件平台、oci自动发布、fastest代理平台等非商业项目，用于提高团队的开发效率和项目的线上稳定性；
+							团队技术影响力发展，团队组织开展腾讯TLC开发者大会、ivweb社区文章推送等活动。
 							<br>
 							<header>个人工作：</header>业务需求：now pc web项目开发、直播助手qq浏览器插件。
 							<br>
@@ -62,17 +62,18 @@ global.resumeData = {
 					{
 						head: { 
 							time: '2019.9 - 2019.10',
-							title: 'lego组件效果图',
+							title: 'lego组件效果图获取',
 							link: { name: '未开源' },
 						},
 							detail: `
-								<header>项目介绍：</header>本项目基于lego组件平台，目的是收录lego平台组件的所有效果图，作为某些系统的基础，例如：设计稿到网页自动转化、图片搜索组件等项目。
-								后期将替换现有的组件demo页面，实现demo排版格式化，同时帮助组件使用者快速使用组件。
+								<header>项目介绍：</header>本项目基于lego组件平台，目的是收录lego平台组件的所有效果图，这些效果图会作为某些系统的基础，例如：设计稿到网页的自动转化、根据图片搜索组件等项目。
+								后期将替换现有的组件demo页面，实现demo排版格式化，同时帮助组件使用者接入使用组件。
 								本系统提供两种组件效果图上传的途径：开发配置文件，程序自动获取所有效果；组件管理员手动上传效果图片。
 								<br>
-								使用的技术栈：react、redux、koa、docker。
+								技术栈：react、redux、koa、docker。
 								<br>
-								<header>个人工作：</header>负责整个系统的设计与实现。项目难点如下：<strong>组件所有效果打包到一个页面</strong><strong>组件效果图获取时机</strong>。
+								<header>个人工作：</header>负责整个系统的设计与实现。
+								项目难点：<strong>组件的所有效果集成到一个页面</strong><strong>组件效果图获取时机</strong>。
 							`,
 					},
 					{
@@ -86,9 +87,10 @@ global.resumeData = {
 								用户在平台上传组件图片或者输入图片地址，平台将所有相似的图片查找出来，展示给用户，用户自行对比，点击搜索结果中的效果图跳转到对应的组件介绍页面。
 								该系统用来帮助组件使用者快速寻找组件，提高lego平台组件使用率。
 								<br>
-								使用的技术栈：react、redux、koa、docker。
+								技术栈：react、redux、koa、docker。
 								<br>
-								<header>个人工作：</header>负责整个系统的设计与实现。项目难点如下：<strong>图片对比算法</strong><strong>搜索性能优化</strong>。
+								<header>个人工作：</header>负责整个系统的设计与实现。
+								项目难点：<strong>图片对比算法</strong><strong>搜索性能优化</strong>。
 							`,
 					},
 					{
@@ -100,10 +102,10 @@ global.resumeData = {
 						detail: `
 							<header>项目介绍：</header>本平台是now直播的pc端，用于展示直播间信息、观看直播等功能、信息发送等功能。
 							<br>
-							使用的技术栈：react、redux。
+							技术栈：react、redux。
 							<br>
-							<header>个人工作：</header>负责平台关注、观看历史、榜单、组件开发等需求。
-							项目难点如下：<strong>弹幕性能优化</strong><strong>直播间react组件更新性能优化</strong><strong>气泡组件开发</strong>。
+							<header>个人工作：</header>负责平台关注、观看历史、榜单、组件开发等前端需求。
+							项目难点：<strong>弹幕性能优化</strong><strong>直播间react组件更新性能优化</strong><strong>气泡组件开发</strong>。
 						`,
 					},
 					{
@@ -113,11 +115,12 @@ global.resumeData = {
 							link: { name: '已下线' },
 						},
 						detail: `
-							<header>项目介绍：</header>团队所有业务系统统一使用统一套登陆系统，实现所有系统保持一致的用户登陆状态。实现的功能有：统一登录、统一登出、团队使用一套用户信息。
+							<header>项目介绍：</header>团队所有业务系统使用一套登录系统，让所有系统用户登陆状态保持一致。实现的功能有：统一登录、统一登出、使用一套用户信息。
 							<br>
-							使用的技术栈：jquery、egg。
+							技术栈：jquery、egg。
 							<br>
-							<header>个人工作：</header>负责整个系统的实现。实现难点如下：<strong>跨域页面cookie写入</strong><strong>统一登出</strong><strong>登录成功重定向回业务页面</strong>。
+							<header>个人工作：</header>负责整个系统的实现。
+							项目难点：<strong>跨域页面cookie写入</strong><strong>统一登出</strong><strong>登录成功重定向回业务页面</strong>。
 						`,
 					},	
 				],
