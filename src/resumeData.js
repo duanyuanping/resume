@@ -9,7 +9,7 @@ global.resumeData = {
 		degree: '本科 / 2020年毕业',
 		mobile: '130 7239 0461',
 		email: '1798482104@qq.com',
-		github: 'https://github.com/duanyuanping',
+		github: 'https://github.com/duanyuanping/blog',
 	},
 	body: [ // 简历主体模板
 		// {
@@ -34,7 +34,7 @@ global.resumeData = {
 				describe: [
 					{
 						head: { 
-							time: '2019.5 - 2019.11',
+							time: '2019.5 - 至今',
 							title: ' 腾讯-PCG',
 							link: {
 								name: 'IVWEB前端团队',
@@ -43,12 +43,12 @@ global.resumeData = {
 						},
 						detail: `
 							<header>团队介绍：</header>团队主要负责腾讯旗下的now直播、回音、交友、花样、腾讯直播等商业项目开发；
-							团队现在有feflow脚手架、aegis错误监控平台、lego组件平台、oci自动发布、fastest代理平台等非商业项目，用于提高团队的开发效率和项目的线上稳定性；
+							团队现在有feflow脚手架、lego组件平台、fastest代理平台、aegis错误监控平台等非商业项目，用于提高团队的开发效率和项目的线上稳定性；
 							团队技术影响力发展，团队组织开展腾讯TLC开发者大会、ivweb社区文章推送等活动。
 							<br>
-							<header>个人工作：</header>业务需求：now pc web项目开发、直播助手qq浏览器插件。
+							<header>个人工作：</header>业务需求：now直播商业化开发、now pc开发。
 							<br>
-							技术需求：lego平台pc组件开发、now pc直播间页面部分优化工作、<strong>lego组件效果图获取</strong>、<strong>以图搜图</strong>。
+							技术需求：feflow项目初始可视化平台、rn动态加载jsbundle、lego组件效果图获取。
 						`,
 					},
 				],
@@ -61,68 +61,69 @@ global.resumeData = {
 				describe: [
 					{
 						head: { 
-							time: '2019.9 - 2019.10',
-							title: 'lego组件效果图获取',
+							time: '2021.2 - 至今',
+							title: 'feflow项目初始化可视化平台',
 							link: { name: '未开源' },
 						},
-							detail: `
-								<header>项目介绍：</header>本项目基于lego组件平台，目的是收录lego平台组件的所有效果图，这些效果图会作为某些系统的基础，例如：设计稿到网页的自动转化、根据图片搜索组件等项目。
-								后期将替换现有的组件demo页面，实现demo排版格式化，同时帮助组件使用者接入使用组件。
-								本系统提供两种组件效果图上传的途径：开发配置文件，程序自动获取所有效果；组件管理员手动上传效果图片。
-								<br>
-								技术栈：react、redux、koa、docker。
-								<br>
-								<header>个人工作：</header>负责整个系统的设计与实现。
-								项目难点：<strong>组件的所有效果集成到一个页面</strong><strong>组件效果图获取时机</strong>。
-							`,
+							detail: 
+								`
+									<header>项目介绍：</header>开发者通过可视化平台，选择项目中使用的脚手架、通用模板、工具服务等内容，完成初始化项目工作。项目初始过程在远端服务器完成，不依赖开发者本地环境。
+									项目初始以后，开发者可以使用git克隆项目的远程仓库。可视化平台也可以帮助开发者管理项目和快速上线项目。
+									<br>
+									<header>个人工作：</header>平台后端服务搭建、项目新建初始化。
+									<br>
+									技术：node、react、nest
+								`,
+					},
+					{
+						head: { 
+							time: '2020.7 - 2020.12',
+							title: 'rn动态化加载jsbundle',
+							link: { name: 'now app' },
+						},
+							detail: 
+								`
+									<header>项目介绍：</header>项目发布的时候，将rn项目的jsbundle资源上传到服务器。app首次加载rn页面的时候，直接请求线上<strong>jsbundle直出</strong>服务，
+									直出服务将当前页面首屏数据和jsbundle代码资源响应给app，客户端拿到jsbundle资源，将页面解析渲染出来。
+									本项目还做了rn项目的监控能力，用来<strong>监控rn代码错误</strong>、<strong>未捕获的promise reject</strong>、<strong>cgi请求错误</strong>等功能。
+									<br>
+									<header>个人工作：</header>rn jsbundle直出、代码运行监控、单例容器错误上报分离。
+									<br>
+									技术：node、react、rn
+								`,
 					},
 					{
 						head: { 
 							time: '2019.9 - 2019.10',
-							title: 'lego以图搜图',
+							title: '组件效果图自动获取系统',
 							link: { name: '未开源' },
 						},
-							detail: `
-								<header>项目介绍：</header>本项目基于lego组件效果图实现组件查找功能。
-								用户在平台上传组件图片或者输入图片地址，平台将所有相似的图片查找出来，展示给用户，用户自行对比，点击搜索结果中的效果图跳转到对应的组件介绍页面。
-								该系统用来帮助组件使用者快速寻找组件，提高lego平台组件使用率。
-								<br>
-								技术栈：react、redux、koa、docker。
-								<br>
-								<header>个人工作：</header>负责整个系统的设计与实现。
-								项目难点：<strong>图片对比算法</strong><strong>搜索性能优化</strong>。
-							`,
+							detail: 
+								`
+									<header>项目介绍：</header>本系统用于获取组件仓库中组件可能的效果图。开发者配置组件调用传参文件，分支合并到master时，程序根据传参文件自动生成组件的效果。
+									程序自动截取组件的所有效果图，经过去重、压缩等一系列处理后，存入静态资源服务。组件平台将组件效果图都展示出来，同时提供产生该效果的组件调用传参，帮助开发者快速接入当前组件。
+									<br>
+									<header>个人工作：</header>组件效果页面构建上线、组件效果图获取、效果图去重等任务。
+									<br>
+									技术：react、koa
+								`,
 					},
-					{
-						head: { 
-							time: '2019.5 - 2019.8',
-							title: 'NOW PC直播',
-							link: { name: 'NOW地址', href: 'https://now.qq.com/pcweb/index.html' },
-						},
-						detail: `
-							<header>项目介绍：</header>本平台是now直播的pc端，用于展示直播间信息、观看直播等功能、信息发送等功能。
-							<br>
-							技术栈：react、redux。
-							<br>
-							<header>个人工作：</header>负责平台关注、观看历史、榜单、组件开发等前端需求。
-							项目难点：<strong>弹幕性能优化</strong><strong>直播间react组件更新性能优化</strong><strong>气泡组件开发</strong>。
-						`,
-					},
-					{
-						head: { 
-							time: '2018.2 - 2018.3',
-							title: '单点登录系统',
-							link: { name: '已下线' },
-						},
-						detail: `
-							<header>项目介绍：</header>团队所有业务系统使用一套登录系统，让所有系统用户登陆状态保持一致。实现的功能有：统一登录、统一登出、使用一套用户信息。
-							<br>
-							技术栈：jquery、egg。
-							<br>
-							<header>个人工作：</header>负责整个系统的实现。
-							项目难点：<strong>跨域页面cookie写入</strong><strong>统一登出</strong><strong>登录成功重定向回业务页面</strong>。
-						`,
-					},	
+					// {
+					// 	head: { 
+					// 		time: '2018.2 - 2018.3',
+					// 		title: '单点登录系统',
+					// 		link: { name: '已下线' },
+					// 	},
+					// 	detail: `
+					// 		<header>项目介绍：</header>学校团队内存在多套自研系统，所有业务系统使用一套登录系统，让所有系统用户登陆状态保持一致。实现的功能有：统一登录、统一登出、使用一套用户信息。
+					// 		<br>
+					// 		<header>个人工作：</header>负责整个系统的实现。
+					// 		<br>
+					// 		项目难点：<strong>跨域页面cookie写入</strong><strong>统一登出</strong><strong>登录成功重定向回业务页面</strong>。
+					// 		<br>
+					// 		技术：jquery、egg。
+					// 	`,
+					// },	
 				],
 			},
 		},
@@ -132,12 +133,12 @@ global.resumeData = {
 				type: 'listStyle',
 				describe: [
 					// `能熟练使用<strong>HTML</strong><strong>JavaScript</strong>，能够使用<strong>CSS</strong>完成平时开发`,
-					`能够熟练使用<strong>react</strong><strong>redux</strong>进行平时开发，对<strong>react</strong>实现有一定了解。`,
-					`能使用<strong>git</strong>工具进行团队协作开发。`,
-					`了解一些<strong>node</strong>基础知识，能够熟练使用<strong>koa</strong>开发后端应用，曾多次开发商业项目后端经验。`,
+					`能够熟练使用<strong>react</strong><strong>redux</strong>进行平时开发，对<strong>react</strong>有一定的了解。`,
+					`能够熟练使用<strong>node</strong>开发后端应用，曾多次开发node项目。`,
 					// `会一点<strong>Linux操作</strong>，能够将<strong>项目上线</strong>，会使用<strong>nginx</strong>来解决前端页面跨域等问题，能够配置<strong>https</strong>`,
-					// `对<strong>浏览器相关知识</strong>和前端<strong>页面性能优化</strong>有一定的了解，平时开发注重<strong>代码可维护性</strong>以及<strong>用户体验</strong>`,
-					// `了解一些关于计算机网络、数据结构、算法的基础知识`,
+					`对<strong>浏览器相关知识</strong>和<strong>前端工程化</strong>有一定的了解，平时开发注重<strong>代码可维护性</strong>以及<strong>用户体验</strong>。`,
+					// `能够使用<strong>git</strong>工具进行团队协作开发。`,
+					`了解一些计算机网络、数据结构、算法等基础知识。`,
 				],
 			},
 		},
