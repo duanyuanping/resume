@@ -6,7 +6,7 @@ export default () => {
   return (
     <Fragment>
       <div className="g-wrap">
-        网站备案中，请稍后再试。
+        个人网站备案中，请稍后再试。
         <div>
         <a href="https://beian.miit.gov.cn">渝ICP备20002213号-3</a>
         </div>
