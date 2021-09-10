@@ -8,7 +8,6 @@ export default () => {
       <div className='g-wrap'>
         <Header />
         <Body />
-        <a href="https://beian.miit.gov.cn">渝ICP备20002213号-2</a>
       </div>
     </Fragment>
   )
